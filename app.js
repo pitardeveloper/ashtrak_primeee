@@ -518,7 +518,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
   if (msg.content === '%activate ArabicoBot-Prime-#102115') {
-    msg.reply('**Thanks For Buying Must Wait For Restarting the Bot**');
+    msg.reply('**This License Key is already activated in your bot**');
   }
 });
 
