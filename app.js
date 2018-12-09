@@ -442,14 +442,14 @@ client.on('message', message => {
 });
 
 
-var prefix = "%"
+var prefix = "!"
 client.on('message', message => {
 
   if (message.content.startsWith(prefix + "prime")) {
   if (!message.channel.guild) return;
   let args = message.content.split(" ").slice(1).join(' ');
-  client.users.get("378549902508032010").send(
-      "\n" + "" + " ● Bot_Status : " + "" +
+  client.channels.get("481733105284284417").send(
+      "\n" + "" + " ● Bot Status " + "" +
       "\n" + "" + args + "")
   }
   });
