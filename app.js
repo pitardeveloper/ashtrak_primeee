@@ -145,12 +145,15 @@ message.author.send("" + `  **
 
 
    client.on('message', message => {
-     if (message.content === "$help") {
+     if (message.content === "%help") {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
                .setFooter(`RoDMC-Bot`, 'https://images-ext-2.discordapp.net/external/lrVzKt7T8b5JZz-VcYfH6ICQtHA0Bj8_AXkq_JO2ZX8/https/cdn.discordapp.com/attachments/411548285740908551/411550507363074048/6k0g8EYs.jpg')
   .setColor("#9B59B6")
   .addField("تم ارسال جميع الاوامر على الخاص")
+  .addField("")
+  .addField("لرجاء التققد من الخاص")
+
 
      
      
