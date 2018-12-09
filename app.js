@@ -522,6 +522,20 @@ client.on('message', message => {
     });
 
 
+client.on('message', msg => {
+  if (msg.content === '%activate ArabicoBot-Prime-#102115') {
+    msg.reply('**Thanks For Buying Must Wait For Restarting the Bot**');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === '%activate') {
+    msg.reply('**Type Your License Key Please**');
+  }
+});
+
+
 
 
 // THIS  MUST  BE  THIS  WAY
