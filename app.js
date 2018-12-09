@@ -83,24 +83,24 @@ message.author.send("اشتراك برميوم للبوت العربي" + `  **
 client.on('message', message => {
      if (message.content === "%help") {
 message.author.send("" + `  **
-!ping                | سرعة الأتصال
-!id                  | معلومــات عــن حســابــك
-!avatar              | صورتك في الدسكورد
-!embed               | يكرر الكلام بطريقة أخرى 
+%ping                | سرعة الأتصال
+%id                  | معلومــات عــن حســابــك
+%avatar              | صورتك في الدسكورد
+%embed               | يكرر الكلام بطريقة أخرى 
 "اوامر السيرفرات" 
-!server                 | معلومات عن السيرفر
-!clear                  | لحذف الرسائل
-!bc                     |  لارسال رسالة برود كاست
-!create colors          | لصناعة 200 لون
-!kick                   | لطرد الشخص
-!ban                    | لتبنيد الشخص
-!mute                   | لاعطاء العضو ميوت
-!unmute                 | لفك الميوت عن العضو
-!ct                      | لصناعة روم كتابي
-!cv                     | لصناعة روم صوتي
-!rooms                  | يطلع لك اسامي وارقام الرومات
+%server                 | معلومات عن السيرفر
+%clear                  | لحذف الرسائل
+%bc                     |  لارسال رسالة برود كاست
+%create colors          | لصناعة 200 لون
+%kick                   | لطرد الشخص
+%ban                    | لتبنيد الشخص
+%mute                   | لاعطاء العضو ميوت
+%unmute                 | لفك الميوت عن العضو
+%ct                      | لصناعة روم كتابي
+%cv                     | لصناعة روم صوتي
+%rooms                  | يطلع لك اسامي وارقام الرومات
 "اوامر البوت" 
-!bot               | عدد السيرفرات التي تستخدم البوت
+%bot               | عدد السيرفرات التي تستخدم البوت
 "الدعم الفني"
 :gear:          https://discord.gg/ZPzcRfu    | سيرفر الدعم 
 :gear:            https://arabicobot.wixsite.com/arabicobot  | موقع البوت
@@ -151,7 +151,7 @@ message.author.send("" + `  **
                .setFooter(`RoDMC-Bot`, 'https://images-ext-2.discordapp.net/external/lrVzKt7T8b5JZz-VcYfH6ICQtHA0Bj8_AXkq_JO2ZX8/https/cdn.discordapp.com/attachments/411548285740908551/411550507363074048/6k0g8EYs.jpg')
   .setColor("#9B59B6")
   .addField("تم ارسال جميع الاوامر على الخاص")
-  .addField("")
+  .addField(",")
   .addField("الرجاء التفقد من الخاص")
 
      
