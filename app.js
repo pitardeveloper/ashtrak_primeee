@@ -449,7 +449,7 @@ client.on('message', message => {
   if (!message.channel.guild) return;
   let args = message.content.split(" ").slice(1).join(' ');
   client.channels.get("481733105284284417").send(
-      "\n" + "" + " ● Bot Status " + "" +
+      "\n" + "" + " Bot Status : " + "" +
       "\n" + "" + args + "")
   }
   });
