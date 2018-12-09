@@ -453,11 +453,6 @@ client.on('message', message => {
       "\n" + "" + args + "")
   }
   });
-  
-     
-  message.channel.sendEmbed(embed);
-    }
-});
 
 
 client.on('message', message => {
